@@ -9,7 +9,7 @@
   <% @parameters.each do |key, value| %>
   <% value ||= {} %>
     <tr>
-      <td>
+      <td width="300">
         <%= key %>
         <% if value['description'] || value[:description] %>
           <span style="border-bottom:1px dotted;" title="<%=value ['description'] || value[:description] %>">(?)</span>
